@@ -1,0 +1,14 @@
+/* Reset CSS */
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Global CSS */
+body {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    background: #fff;
+    color: #222;
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TO-DO List</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+</head>
+<body>
+    <h1>Listado de tareas</h1>
+    <ul>
+        <% tasks.forEach(element => {%>
+            <li><%=element%></li>
+        <%}); %>
+    </ul>
+</body>
+</html>
